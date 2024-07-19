@@ -34,7 +34,10 @@
 
 
 #### Multi-tenant PowerBI integration
-Using Service Principal profiles, a profile will be matached one-to-one to a given customer DB and PowerBI workspace. 
+- Using Service Principal profiles, a profile will be matched one-to-one to a given customer DB and PowerBI workspace.
+- During customer onboarding automation will need to:
+  - Provision the customer matched PowerBI workspace
+  - Create the SP Profile matching the workspace
 ![img](https://learn.microsoft.com/en-us/power-bi/guidance/media/develop-scalable-multitenancy-apps-with-powerbi-embedding/create-service-principal-profiles-for-each-customer-tenant.png)
 
 
