@@ -31,11 +31,11 @@
     E --> F[Production Workspace 1]
     E --> G[Production Workspace 2]
     E --> H[Production Workspace 3]
-```
+
 
 #### Multi-tenant PowerBI integration
 Using Service Principal profiles, a profile will be matached one-to-one to a given customer DB and PowerBI workspace. 
-[img]https://learn.microsoft.com/en-us/power-bi/guidance/media/develop-scalable-multitenancy-apps-with-powerbi-embedding/create-service-principal-profiles-for-each-customer-tenant.png
+![img](https://learn.microsoft.com/en-us/power-bi/guidance/media/develop-scalable-multitenancy-apps-with-powerbi-embedding/create-service-principal-profiles-for-each-customer-tenant.png)
 
 
 - [Multi-tenant PowerBI embedding](https://learn.microsoft.com/en-us/power-bi/guidance/develop-scalable-multitenancy-apps-with-powerbi-embedding)
